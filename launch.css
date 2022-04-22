@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5c8e5b67797f74678344b0f1/1622650202362-IBZ59JGMWR50LEBNXKVM/Website%286%29.png?format=2500w);
+}
+.register{
+    margin-top: 80px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #a4223a;
+}
+.mainheader{
+    text-align: center;
+    margin-top: 80px;
+    margin-right:auto;
+    margin-left: auto;
+}
+.btn{
+    background-color: #a4223a;
+    color: azure;
+    align-self: center;
+    border-color: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1{
+    font-family: 'Licorice', cursive;
+    font-weight: 1000;
+    font-size: 93px;
+    color:#a4223a
+}
+p{
+    font-family:cursive;
+    font-size: 25px;
+}
+h3{
+    font-family: 'Anton', sans-serif;
+}
+.btn:hover{
+    background-color: wheat;
+    color: black;
+    border-color: transparent;
+ }
+ #logsign{
+     margin-top: 5%;
+     margin-bottom: 5%;
+ }
+#newuser{
+    margin-bottom: 40px;
+}
+#existinguser{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,108 @@
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5c8e5b67797f74678344b0f1/1622650202362-IBZ59JGMWR50LEBNXKVM/Website%286%29.png?format=2500w);
+}
+#topnav,.dropdown-menu{
+    background-color: #a4223a;
+}
+a,.dropdown-item,#navbarDropdownMenuLink{
+    color:wheat;
+    background-color: #a4223a;
+}
+a:hover{
+    color:wheat;
+}
+.navbar-text{
+    color:wheat;
+}
+#navbarDropdownMenuLink:hover{
+    color:black;
+    background-color: wheat;
+}
+.dropdown-item:hover{
+    background-color: wheat;
+    color: black;
+    border-color: transparent;
+}
+#maincontainer{
+    margin-top: 40px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.pname{
+    height:100%;
+    width:100%;
+}
+#createproject{
+    background-color: #a4223a;
+    border-radius: 1rem;
+    color: wheat;
+}
+
+#createproject:hover{
+    background-color: wheat;
+    color: black;
+    border-color: transparent;
+ }
+
+ #container-button{
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+     width: 60%;
+ }
+ #select-button-display{
+    background-color: #a4223a;
+    color: wheat;
+    padding-left:30%;
+    padding-right:30%;
+    text-align: center;
+    border-color: transparent;
+    width:90%;
+ }
+ #select-button-display:hover{
+    background-color: wheat;
+    color: black;
+    border-color: transparent;
+}
+ #select-button{
+    background-color: #a4223a;
+    color: wheat;
+    border-color: transparent;
+ }
+ #select-button:hover{
+     background-color: wheat;
+     color:black;
+ }
+ #list-of-options{
+     color: wheat;
+     text-align: center;
+     width: fit-content
+ }
+ #create-new{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 400px;
+    border-radius:25px;
+    border-color: transparent;
+ }
+ #inputGroup-sizing-default{
+     background-color: #a4223a;
+     color: wheat;
+ }
+ li:nth-of-type(n):hover{
+     color: black;
+     background-color: wheat;
+     cursor: pointer;
+}
+h2{
+    text-align: center;
+    color: #a4223a;
+    font-family: cursive;
+}

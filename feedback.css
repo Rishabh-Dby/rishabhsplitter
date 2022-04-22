@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5c8e5b67797f74678344b0f1/1622650202362-IBZ59JGMWR50LEBNXKVM/Website%286%29.png?format=2500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ratingbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Licorice', cursive;
+    font-weight: 1000;
+    font-size: 93px;
+    color:#a4223a
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    color:#a4223a
+}
+.btn{
+    background-color: #a4223a;
+    color: azure;
+    border-color: transparent;
+}
+.btn-group{
+    margin-top:0%;
+}
+  #description{
+      background-color: #a4223a;
+      color: wheat;
+      border-radius: 0.5em;
+  }
+ #rating{
+     color: wheat;
+ }
+ #rating:hover{
+     background-color: wheat;
+     color: black;
+ }
+ #button-feedback{
+     border-radius: 2rem;
+ }
+ #button-feedback:hover{
+    background-color: wheat;
+    color: black;
+ }
+ p{
+    text-align: center;
+    font-family:cursive;
+    font-size: 25px;
+    color:#a4223a;
+ }

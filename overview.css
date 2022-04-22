@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5c8e5b67797f74678344b0f1/1622650202362-IBZ59JGMWR50LEBNXKVM/Website%286%29.png?format=2500w);
+}
+#topnav,.dropdown-menu{
+    background-color: #a4223a;
+}
+.dropdown-item,#navbarDropdownMenuLink,#inputGroup-sizing-default{
+    color:wheat;
+    background-color: #a4223a;
+    border-color: transparent;
+}
+.navbar-text{
+    color:wheat;
+}
+
+
+/* expenses */
+
+
+#mainheader{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#add{
+    background-color: #a4223a;
+    color: wheat;
+    border-color: transparent;
+}
+#expenses{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.row{
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #a4223a;
+    color:wheat;
+}
+.row:hover{
+    background-color: wheat;
+    color:black;
+}
+h2{
+    text-align: center;
+    color: #a4223a;
+    font-family: cursive;
+}
+#newmember{
+    margin-top: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#add{
+    margin-left: 45%;
+}
+#by{
+    background-color: #a4223a;
+    color: wheat;
+    border-color: transparent;
+}
+
+
+
+/* overview */
+
+
+#overview{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    max-height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#expbtn{
+    background-color: transparent;
+    text-decoration:transparent;
+    color: #a4223a;
+}
+#expbtn:hover{
+    background-color: transparent;
+    color:white;
+}
